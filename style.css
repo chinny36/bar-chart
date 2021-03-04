@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Times New Roman', Times, serif;
+  background: #334;
+}
+
+.chart {
+  width: 700px;
+  height: 400px;
+  display: block;
+}
+
+.numbers {
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  width: 50px;
+  height: 100%;
+  float: left;
+  display: block;
+}
+
+.numbers li {
+  list-style: none;
+  height: 100px;
+  position: relative;
+  bottom: 95px;
+}
+
+.numbers span {
+  font-size: 12px;
+  font-weight: 600;
+}
