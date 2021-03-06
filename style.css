@@ -6,7 +6,7 @@ body {
   justify-content: center;
   align-items: center;
   font-family: 'Times New Roman', Times, serif;
-  background: #334;
+  background: rgb(55, 55, 68);
 }
 
 .chart {
@@ -27,12 +27,59 @@ body {
 
 .numbers li {
   list-style: none;
-  height: 100px;
+  height: 75px;
   position: relative;
-  bottom: 95px;
+  bottom: 10px;
 }
 
 .numbers span {
   font-size: 12px;
   font-weight: 600;
+}
+
+.bars {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  background: rgb(97, 98, 107);
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  width: 600px;
+  height: 300px;
+  border-radius: 5px;
+}
+
+.bars li {
+  list-style: none;
+  display: table-cell;
+  width: 150px;
+  height: 300px;
+  position: relative;
+
+}
+
+.bars span {
+  position: absolute;
+  bottom: -20px;
+  text-align: center;
+  width: 100%;
+}
+
+.bar {
+  display: block;
+  position: absolute;
+  background: rgb(132, 218, 182);
+  width: 50px;
+  height: 100px;
+  bottom: 0px;
+  margin-left: 35px;
+  text-align: center;
+  transition: 0.5s;
+  transition-property: background, box-shadow;
+}
+
+.bar:hover {
+  background:rgb(165, 209, 191);
+  box-shadow: 0 0 5px 0;
 }
