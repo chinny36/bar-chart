@@ -71,7 +71,6 @@ body {
   position: absolute;
   background: rgb(132, 218, 182);
   width: 50px;
-  height: 100px;
   bottom: 0px;
   margin-left: 35px;
   text-align: center;
@@ -82,4 +81,10 @@ body {
 .bar:hover {
   background:rgb(165, 209, 191);
   box-shadow: 0 0 5px 0;
+}
+
+.bar::before {
+  color: rgb(0, 0, 0);
+  content: attr(data-percent) "%";
+  font-size: 10px;
 }
