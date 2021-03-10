@@ -15,6 +15,11 @@ body {
   display: block;
 }
 
+.title {
+  text-align: center;
+  color: white;
+}
+
 .numbers {
   color: #fff;
   margin: 0;
