@@ -5,9 +5,11 @@
   <title>Bar Chart</title>
   <link rel = 'stylesheet' href = 'style.css'>
   <script src = 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js' charset="utf-8"></script>
+  <script src = 'bar-chart.js'></script>
 </head>
 <body>
-  <div class = 'chart'>
+  <script>drawBarChart(data, options, element);</script>
+  <!-- <div class = 'chart'>
     <h1 class = 'title'>Bar Chart</h1>
     <ul class = 'numbers'>
       <li><span>100</span></li>
@@ -31,7 +33,7 @@
         $(this).animate({'height': $(this).data('percent') + '%'}, 1500);
       });
     });
-  </script>
+  </script> -->
 </body>
 
 
